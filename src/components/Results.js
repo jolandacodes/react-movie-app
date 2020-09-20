@@ -1,10 +1,16 @@
+
 import React from 'react'
 
-export default function Results({result}) {
-    return (
-        <div className="movie">
-            <img src={result.Poster} alt="movie poster"/>
-            <h3>{result.Title}</h3>
-        </div>
-    )
+import Result from './Result'
+
+function Results ({ results, Popup }) {
+	return (
+		<section className="movies">
+			{results.map(result => (
+				<Result key={result.imdbID} result={result} Popup={Popup} />
+			))}
+		</section>
+	)
 }
+
+export default Results
