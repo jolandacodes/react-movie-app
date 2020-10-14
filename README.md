@@ -1,4 +1,4 @@
-# react-movie-app 
+# react-movie-app
 
 <<<<<<< HEAD
 Create a React app that allows you to search the OM Movie Database and returns the results of that search. 
