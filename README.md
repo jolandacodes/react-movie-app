@@ -11,6 +11,7 @@ OMDB API avilable here: https://www.omdbapi.com/
 
 ## Key Concepts
 
+* Javascript
 * React JS
 * API Call 
 * useState Hook
