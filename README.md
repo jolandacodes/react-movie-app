@@ -8,7 +8,6 @@ Create a React app that allows you to search the OMDB.
 
 OMDB API avilable here: https://www.omdbapi.com/
 
-
 ## Key Concepts 
 
 * Javascript
